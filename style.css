@@ -1,0 +1,49 @@
+body {
+	font-family: Calibry, sans-serif;
+	font-size: 20px;
+	color: #333;
+}
+
+.profile {
+	margin: 20px 0 0 10px;
+}
+
+.card {
+	margin: 15px 0 0 15px;
+}
+
+.card li {
+	font-size: 14px;
+	list-style-type: none;
+}
+
+.card span {
+	font-size: 12px;
+}
+
+.projects li {
+	font-size: 16px;
+	list-style-type: disc;
+}
+
+
+.description {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 270px;
+	text-align: center;
+	width: 65%;
+}
+
+.card-deck {
+	width: 90%;
+	margin: 0 auto;
+}
+
+small {
+	font-size: 14px;
+	display: block;
+	width: 87%;
+	margin: 0 auto;
+}
