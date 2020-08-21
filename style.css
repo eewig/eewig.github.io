@@ -4,10 +4,6 @@ body {
 	color: #333;
 }
 
-.profile {
-	margin: 20px 0 0 10px;
-}
-
 .card {
 	margin: 15px 0 0 15px;
 }
@@ -23,6 +19,10 @@ body {
 
 .card-img {
 	max-height: 198px;
+}
+
+.profile {
+	float: left; 
 }
 
 .projects li {
@@ -50,4 +50,18 @@ small {
 	display: block;
 	width: 87%;
 	margin: 0 auto;
+}
+
+@media screen and (max-width: 758px){
+	.card {
+		margin: 2vw auto;
+	}
+
+	.profile {
+		float: none;
+	}
+
+	.description {
+		width: 100%;
+	}
 }
